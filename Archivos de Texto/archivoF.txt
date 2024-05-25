@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+
+    cout << "Introduce un número: ";
+    cin >> n;
+
+    if (n > 0) {
+        cout << "El número es positivo." << endl;
+    } else (n < 0) {
+        cout << "El número es negativo." << endl;
+    } else {
+        cout << "El número es cero." << endl;
+    }
+
+    cout << "Contando desde 1 hasta " << n << ":" << endl;
+
+    for (int i = 1; i <= n; i++) {
+        cout << i << " ";
+    }
+    cout << endl;
+
+    return 0;
+}

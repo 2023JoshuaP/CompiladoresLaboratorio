@@ -1,0 +1,6 @@
+int temp1 = 258;
+int temp2 = 260;
+int suma = temp1 + temp2;
+int resta = temp1 - temp2;
+int multiplicacion = temp1 * temp2;
+int division = temp1 / temp2;

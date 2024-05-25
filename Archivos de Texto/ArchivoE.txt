@@ -1,0 +1,5 @@
+Hola Mundo;
+Hola , Mundo
+void function(int a, int b);
+char A[100];
+int main() {}
