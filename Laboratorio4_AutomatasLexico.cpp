@@ -56,7 +56,7 @@ string analizarCadena(const string& entrada) {
 }
 
 int main() {
-    string cadena = "c";
+    string cadena = "123456";
     string resultado = analizarCadena(cadena);
     cout << "Resultado del análisis para '" << cadena << "': " << resultado << endl;
     return 0;
